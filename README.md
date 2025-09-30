@@ -17,9 +17,9 @@ Output: [-1]
 Explanation: There is no subarray with sum 2
 
 Constraints:
-1 <= arr.size()<= 10^6
-0 <= arr[i] <= 10^3
-0 <= target <= 10^9
+1 <= arr.size()<= 10^6;
+0 <= arr[i] <= 10^3;
+0 <= target <= 10^9;
 
 Time Complexity: O(n)
 Auxiliary Space: O(1)
