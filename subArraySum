@@ -1,0 +1,16 @@
+def subarraysum(arr, target):
+  n = len(arr)
+
+  for i in range(n):
+    for j in range(i, n):
+      sum = 0
+      for k in range(i, j + 1):
+        sum += arr[k]
+
+      if sum == target:
+        return [i + 1, j + 1]
+  return -1
+
+arr = [1,2,3,4,5,6,7,8,9,10]
+target = 12
+print(subarraysum(arr,target))
